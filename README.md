@@ -14,7 +14,7 @@
 
 ## 🚀 Getting Started
 npm install  
-npm start
+npm run dev
 
 ## 🔧 Future Improvements
 - Express.js backend
