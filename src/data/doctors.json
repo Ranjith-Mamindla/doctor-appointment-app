@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Arjun Reddy",
+    "specialization": "Cardiologist",
+    "available": true,
+    "slots": ["10:00 AM", "11:30 AM", "2:00 PM"],
+    "image": "https://randomuser.me/api/portraits/men/1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Dr. Shreya Kapoor",
+    "specialization": "Dermatologist",
+    "available": false,
+    "slots": [],
+    "image": "https://randomuser.me/api/portraits/women/2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Dr. Rohan Verma",
+    "specialization": "Pediatrician",
+    "available": true,
+    "slots": [],
+    "image": "https://randomuser.me/api/portraits/men/3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Dr. Priya Sen",
+    "specialization": "Gynecologist",
+    "available": true,
+    "slots": ["9:00 AM", "1:00 PM", "4:30 PM"],
+    "image": "https://randomuser.me/api/portraits/women/4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Dr. Kabir Malhotra",
+    "specialization": "Orthopedic Surgeon",
+    "available": true,
+    "slots": ["8:30 AM", "12:15 PM", "3:45 PM"],
+    "image": "https://randomuser.me/api/portraits/men/5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Dr. Anjali Mehta",
+    "specialization": "Neurologist",
+    "available": false,
+    "slots": [],
+    "image": "https://randomuser.me/api/portraits/women/6.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Dr. Manish Sharma",
+    "specialization": "General Physician",
+    "available": true,
+    "slots": ["10:00 AM", "12:00 PM"],
+    "image": "https://randomuser.me/api/portraits/men/7.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Dr. Isha Nair",
+    "specialization": "Psychiatrist",
+    "available": true,
+    "slots": [],
+    "image": "https://randomuser.me/api/portraits/women/8.jpg"
+  }
+]

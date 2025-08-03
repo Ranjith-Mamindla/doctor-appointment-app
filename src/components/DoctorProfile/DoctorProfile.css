@@ -1,0 +1,100 @@
+.profile-container {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f7fa;
+  min-height: 100vh;
+}
+
+.profile-card {
+  background-color: white;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;      
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  width: 60%;
+  min-height: 50vh;
+  margin: 0 auto;
+}
+
+.profile-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #2e86de; 
+}
+
+.profile-details {
+  flex: 1;
+}
+
+.profile-details h2 {
+  margin-bottom: 10px;
+  color: #2e86de;
+  font-size: 40px;
+}
+
+.profile-details p {
+  margin: 8px 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.book-now-btn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #2e86de;
+  color: white;
+  font-size: 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.book-now-btn:hover {
+  background-color: #1b4f72;
+}
+
+.available {
+  color: green;
+}
+
+.unavailable {
+  color: red;
+}
+
+@media (max-width: 768px) {
+  .profile-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    .profile-card {
+  background-color: white;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;      
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  width: 60%;
+  min-height: 50vh;
+  margin: 0 auto; 
+}
+  }
+
+  .available {
+  color: green;
+}
+
+.unavailable {
+  color: red;
+}
+}
